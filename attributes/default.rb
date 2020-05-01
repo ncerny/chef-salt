@@ -1,5 +1,5 @@
 
-default['salt']['version'] = nil # default: latest
+default['salt']['version'] = 'latest'
 default['salt']['setup']['configure_repo'] = true
 
 default['salt']['role']['master'] = 'salt_master'
